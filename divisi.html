@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo">
+            <img src="unpam2.png" alt="Logo Universitas Pamulang" class="logo">
+        </div>
+        <h1>PAMULANG UNIVERSITY</h1>
+        <div class="user-info">
+            <img src="ichsan.png" alt="User Icon" class="user-icon">
+        </div>    
+    </header>
+
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="ichsan.png" alt="Ichsan Nul Iman" class="profile-pic">
+            <p class="role">System Administrator</p>
+        </div>
+        <nav>
+            <a href="index.html" class="menu-item">🖥️ Home</a>
+            <p class="menu-section">EMPLOYEE MENU</p>
+            <a href="karyawan.html" class="menu-item">👥 Employees</a>
+            <a href="jabatan.html" class="menu-item">💼 Positions</a>
+            <a href="divisi.html" class="menu-item">📂 Departments</a>
+            <p class="menu-section">ATTENDANCE MENU</p>
+            <a href="absensi.html" class="menu-item">📅 Attendance</a>
+            <a href="izin.html" class="menu-item">📝 Leave Requests</a>
+            <a href="lembur.html" class="menu-item">🕦 Overtime Requests</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <h2></h2>
+        <h3></h3>
+        <h4>
+            Department Data
+        </h4>
+        <h4> 
+            <span class="add-button">+ Add Employee</span>
+        </h4>
+        <div class="entries">
+            <span>Display </span>
+            <select class="entries-select" id="entries">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <span>           entries</span>
+            <div class="search-container">
+                <label for="search" class="search-label">Search:</label>
+                <input type="text" id="search" placeholder="" class="search-box">
+            </div>
+        </div>        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Department Code</th>
+                    <th>Department Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>D001</td>
+                    <td>Management</td>
+                    <td>
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>D002</td>
+                    <td>Keuangan</td>
+                    <td>
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>D003</td>
+                    <td>Sumber Daya Manusia</td>
+                    <td>
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>D004</td>
+                    <td>Produksi</td>
+                    <td>
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>D005</td>
+                    <td>Pemasaran</td>
+                    <td>
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>D006</td>
+                    <td>IT</td>
+                    <td>
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+<div class="pagination">
+    <div class="previous">
+        <button class="nav-button">Sebelumnya</button>
+    </div>
+    <div class="page-number">
+        <span class="current-page">1</span>
+    </div>
+    <div class="next">
+        <button class="nav-button">Selanjutnya</button>
+    </div>
+</div>
+
+    </main>
+</body>
+</html>

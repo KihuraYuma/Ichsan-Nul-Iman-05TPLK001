@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header class="header">
+        <div class="logo">
+            <img src="unpam2.png" alt="Logo Universitas Pamulang" class="logo">
+        </div>
+        <h1>PAMULANG UNIVERSITY</h1>
+        <div class="user-info">
+            <img src="ichsan.png" alt="User Icon" class="user-icon">
+        </div>    
+    </header>
+
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="ichsan.png" alt="Ichsan Nul Iman" class="profile-pic">
+            <p class="role">System Administrator</p>
+        </div>
+        <nav>
+            <a href="index.html" class="menu-item">🖥️ Home</a>
+            <p class="menu-section">EMPLOYEE MENU</p>
+            <a href="karyawan.html" class="menu-item">👥 Employees</a>
+            <a href="jabatan.html" class="menu-item">💼 Positions</a>
+            <a href="divisi.html" class="menu-item">📂 Departments</a>
+            <p class="menu-section">ATTENDANCE MENU</p>
+            <a href="absensi.html" class="menu-item">📅 Attendance</a>
+            <a href="izin.html" class="menu-item">📝 Leave Requests</a>
+            <a href="lembur.html" class="menu-item">🕦 Overtime Requests</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <h4>
+            Position Data 
+        </h4>
+        <h4>
+            <a href="forms.html" class="add-button">+ Add Position</a>
+        </h4>
+        <div class="entries">
+            <span>Display </span>
+            <select class="entries-select" id="entries">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <span> entries</span>
+            <div class="search-container">
+                <label for="search" class="search-label">Search:</label>
+                <input type="text" id="search" placeholder="" class="search-box">
+            </div>
+        </div>        
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Position Code</th>
+                    <th>Position Title</th>
+                    <th>Job Desk</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>JB001</td>
+                    <td>Ichsan Nul Iman</td>
+                    <td>Direktur</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>JB002</td>
+                    <td>Syadewa</td>
+                    <td>Direktur</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>K003</td>
+                    <td>Fajar</td>
+                    <td>Manajer</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>K004</td>
+                    <td>Rapael</td>
+                    <td>Manajer</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>K005</td>
+                    <td>Ucup</td>
+                    <td>Manajer</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>K006</td>
+                    <td>Budi</td>
+                    <td>Staf</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>K007</td>
+                    <td>Rina</td>
+                    <td>Staf</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>K008</td>
+                    <td>Putri</td>
+                    <td>Karyawan</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>K009</td>
+                    <td>Shinta</td>
+                    <td>Karyawan</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>K010</td>
+                    <td>Supri</td>
+                    <td>Karyawan</td>
+                    <td>
+                        <img src="mata2.png" alt="View" class="action-icon">
+                        <img src="edit.png" alt="Edit" class="action-icon">
+                        <img src="salary.png" alt="Flag" class="action-icon">
+                        <img src="x.png" alt="Delete" class="action-icon">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+<div class="pagination">
+    <div class="previous">
+        <button class="nav-button">Sebelumnya</button>
+    </div>
+    <div class="page-number">
+        <span class="current-page">1</span>
+    </div>
+    <div class="next">
+        <button class="nav-button">Selanjutnya</button>
+    </div>
+</div>
+
+    </main>
+</body>
+</html>

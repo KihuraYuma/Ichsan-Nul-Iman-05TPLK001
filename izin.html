@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Leave Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="unpam2.png" alt="Logo Universitas Pamulang" class="logo">
+        </div>
+        <h1>PAMULANG UNIVERSITY</h1>
+        <div class="user-info">
+            <img src="ichsan.png" alt="User Icon" class="user-icon">
+        </div>    
+    </header>
+
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="ichsan.png" alt="Ichsan Nul Iman" class="profile-pic">
+            <p class="role">System Administrator</p>
+        </div>
+        <nav>
+            <a href="index.html" class="menu-item">🖥️ Home</a>
+            <p class="menu-section">EMPLOYEE MENU</p>
+            <a href="karyawan.html" class="menu-item">👥 Employees</a>
+            <a href="jabatan.html" class="menu-item">💼 Positions</a>
+            <a href="divisi.html" class="menu-item">📂 Departments</a>
+            <p class="menu-section">ATTENDANCE MENU</p>
+            <a href="absensi.html" class="menu-item">📅 Attendance</a>
+            <a href="izin.html" class="menu-item">📝 Leave Requests</a>
+            <a href="lembur.html" class="menu-item">🕦 Overtime Requests</a>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <h4>
+            Employee Leave Records
+        </h4>
+        <h4> 
+            <span class="add-button">✓ Change Status</span>
+        </h4>
+        <div class="entries">
+            <span>Display </span>
+            <select class="entries-select" id="entries">
+                <option value="10">10</option>
+                <option value="25">25</option>
+                <option value="50">50</option>
+                <option value="100">100</option>
+            </select>
+            <span> entries</span>
+            <div class="search-container">
+                <label for="search" class="search-label">Search:</label>
+                <input type="text" id="search" placeholder="" class="search-box">
+            </div>
+        </div>        
+        <table class="data-table1">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Employee Name</th>
+                    <th>Leave Type</th>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Details</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ichsan</td>
+                    <td>Early Departure</td>
+                    <td>2023-04-11</td>
+                    <td>10:31:00</td>
+                    <td>Family Event</td>
+                    <td>Approved</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Iman</td>
+                    <td>Late Arrival</td>
+                    <td>2022-05-10</td>
+                    <td>07:30:18</td>
+                    <td>Slept In</td>
+                    <td>Not Approved</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Fajar</td>
+                    <td>No Show</td>
+                    <td>2024-06-11</td>
+                    <td>07:15:01</td>
+                    <td>Accident</td>
+                    <td>Approved</td>
+                </tr>
+            </tbody>
+        </table>
+
+<div class="pagination">
+    <div class="previous">
+        <button class="nav-button">Sebelumnya</button>
+    </div>
+    <div class="page-number">
+        <span class="current-page">1</span>
+    </div>
+    <div class="next">
+        <button class="nav-button">Selanjutnya</button>
+    </div>
+</div>
+
+    </main>
+</body>
+</html>
